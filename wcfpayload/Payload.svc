@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Payloadwcf.payload" CodeBehind="Payload.svc.cs" Factory="Payloadwcf.JsonResponseFactory" %>

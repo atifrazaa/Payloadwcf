@@ -1,0 +1,4 @@
+D:\wcfpayload\wcfpayload\bin\wcfpayload.dll
+D:\wcfpayload\wcfpayload\bin\wcfpayload.pdb
+D:\wcfpayload\wcfpayload\obj\Debug\wcfpayload.dll
+D:\wcfpayload\wcfpayload\obj\Debug\wcfpayload.pdb

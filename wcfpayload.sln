@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcfpayload", "wcfpayload\wcfpayload.csproj", "{A15A8387-A072-4589-8BFB-D5619F9CDA6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A15A8387-A072-4589-8BFB-D5619F9CDA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15A8387-A072-4589-8BFB-D5619F9CDA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15A8387-A072-4589-8BFB-D5619F9CDA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15A8387-A072-4589-8BFB-D5619F9CDA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
