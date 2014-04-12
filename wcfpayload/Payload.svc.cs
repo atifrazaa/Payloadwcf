@@ -47,7 +47,6 @@ namespace Payloadwcf
                     {
                         if (payloaditem.drm == true && payloaditem.episodeCount > 0)
                         {
-
                             Response response = new Response();
                             response.image = payloaditem.image.showImage.ToString();
                             response.slug = payloaditem.slug.ToString();

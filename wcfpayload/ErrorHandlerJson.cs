@@ -58,7 +58,7 @@ namespace Payloadwcf
 
         }
 
-            public void ProvideFault(Exception error, MessageVersion version, ref Message fault)
+        public void ProvideFault(Exception error, MessageVersion version, ref Message fault)
             {
                 if (error is FaultException)
                 {
@@ -66,7 +66,7 @@ namespace Payloadwcf
                     var detail = error.GetType().GetProperty("Detail").GetGetMethod().Invoke(error, null);
 
                     // create a fault message containing our FaultContract object
-                    fault = Message.CreateMessage(version, "", detail, new DataContractJsonSerializer(detail.GetType()));
+                    fault = Message.CreateMessage(version, "", new CustomErrorDetail("Could not decode request: JSON parsing failed."), new DataContractJsonSerializer(typeof(CustomErrorDetail)));
 
                     // tell WCF to use JSON encoding rather than default XML
                     var wbf = new WebBodyFormatMessageProperty(WebContentFormat.Json);
