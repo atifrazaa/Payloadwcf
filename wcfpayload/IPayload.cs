@@ -1,7 +1,7 @@
 ﻿#region Header
 ////////////////////////////////////////////////////////////////////////////////////
 //
-//    File Description  : Interface defination for Payload wcf service
+//    File Description  : Interface defination for Payload
 // ---------------------------------------------------------------------------------
 //    Date Created      : April 9, 2014
 //    Author            : Atif Raza

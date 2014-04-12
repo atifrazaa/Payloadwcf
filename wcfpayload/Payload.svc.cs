@@ -1,7 +1,7 @@
 ﻿#region Header
 ////////////////////////////////////////////////////////////////////////////////////
 //
-//    File Description  : Payload wcf implementation for data processing
+//    File Description  : Payload Class implementation for data processing
 // ---------------------------------------------------------------------------------
 //    Date Created      : April 9, 2014
 //    Author            : Atif Raza
