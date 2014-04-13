@@ -14,3 +14,11 @@ In case of invalid JSON submitted to the service it will return below json based
 status code.
 
 "error": "Could not decode request: JSON parsing failed"
+
+-----Technical specifications----
+
+The Payload web service is a WCF Rest base web service developed in C#.
+
+The main method is FilterPayload which processes the JSON input and returns the required payload in JSON format.
+
+For  error handling, The "ProvideFault" method of IErrorHandler interface has been handled to process the incoming requests and provide the response in desired format.
